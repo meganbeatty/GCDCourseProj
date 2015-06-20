@@ -1,8 +1,6 @@
 require(knitr)
 require(markdown)
 setwd("~/datasciencecoursera/GCDCourseProj")
-knit("run_analysis.Rmd", encoding="ISO8859-1")
-markdownToHTML("run_analysis.md", "run_analysis.html")
 
 ## Load packages
 packages <- c("data.table", "reshape2")
